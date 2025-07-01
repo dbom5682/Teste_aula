@@ -3,5 +3,7 @@ print("Tudo bem!")
 nome: str = input("Qual é o seu nome? ")
 
 idade: int = input("Qual é a sua idade? ")
-print(f"Olá, {nome}, a sua idade é {idade} !")
+
+altura: float = input("Qual é a sua altura? ")
+print(f"Olá, {nome}, a sua idade é {idade}, voce tem {altura} !")
 
